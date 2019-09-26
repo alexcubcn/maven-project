@@ -12,8 +12,11 @@ public class Greeter {
 
   }
 
-  //To-Do: Add javadoc comment
-  public final greet(String someone) {
+  /*dd javadoc comment
+  *@param String alguien
+  *@return String cadena
+  */ 
+  public final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
 }
